@@ -5,44 +5,87 @@
     <meta name="viewport" content="width=device-width">
     <title>Trabalhe na Oca da Tapioca</title>
   </head>
-  <body  bgcolor="#dadada" width="80%">
-      <table name="menu">
+  <body  bgcolor="#6a5acd" width="80%">
+    <table name="menu" cellspacing="5">
       <tr>
-        <td rowspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sarolho_e_Malcasado.JPG/180px-Sarolho_e_Malcasado.JPG"></td>
-        <td><td></td>
-        <td></td>
-        <td> <p><a  href="emconstrucao2.html"><img src="https://image.flaticon.com/icons/png/512/1384/1384085.png" width="40px" ></a><a href="emconstrucao2.html"><img src="https://i1.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-sem-fundo11.png?fit=696%2C492&ssl=1" width="60px"></a></p></td>
-          <tr><td align="center" width="20%" valign="bottom"><a href="index.html" name="menu">Ô de casa</a></td>
-          <td align="center" width="20%" valign="bottom"><a href="tusabia.html">"Tu Sabia?"</a></td>
-          <td align="center" width="25%" valign="bottom"><a href="loja.html">Balaio da Feira</a></td>
-          <td align="center" width="20%" valign="bottom"><a href="trabalheconosco.html">Trabalhe Conosco</a></td>
-          <td align="center" width="20%" valign="bottom"><a href="CadastroCliente.html">Vire Freguês</a></td>
-          </tr>
-        </td>
+          <td rowspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sarolho_e_Malcasado.JPG/180px-Sarolho_e_Malcasado.JPG"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td ></td>
+          <td bgcolor="#0000ff" align="center" valing="middle"><p><a  href="emconstrucao2.html"><img src="https://image.flaticon.com/icons/png/512/1384/1384085.png" width="40px" ></a><a href="emconstrucao2.html"><img src="https://i1.wp.com/www.multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-sem-fundo11.png?fit=696%2C492&ssl=1" width="60px"></a></p></td>
+        <tr>
+            <td  bgcolor="#ffa500" align="center" width="20%" valign="bottom"><font size="5"><a href="index.html" name="menu">Ô de casa</a></font></td>
+            <td bgcolor="#ffa500" align="center" width="20%" valign="bottom"><font size="5"><a href="tusabia.html">"Tu Sabia?"</a></font></td>
+            <td bgcolor="#ffa500" align="center" width="25%" valign="bottom"><font size="5"><a href="loja.html">Balaio da Feira</a></font></td>
+            <td bgcolor="#ffa500" align="center" width="20%" valign="bottom"><font size="5"><a href="trabalheconosco.html">Trabalhe Conosco</a></font></td>
+            <td bgcolor="#ffa500" align="center" width="20%" valign="bottom"><font size="5"><a href="CadastroCliente.html">Vire Freguês</a></font></td>
+        </tr>
       </tr>
     </table>
     <hr size="3">
-    <form align="center">
-      <p>Venha trabalhar conosco.</p>
-      <p align="left">Preenchar seus dados</p>
-      Nome&nbsp;<input type="text" placeholder="Digite seu nome"/></br></br>
-      Sobrenome&nbsp<input type="text" placeholder="Digitge seu sobrenome"/></br></br>
-      <p>Sexo:
-        <input type="radio" name="sexo" value="Masculino"/>Masculino
-        <input type="radio" name="sexo" value="Feminino"/>Feminino
-        <input type="radio" name="sexo" value="Prefiro"/>Não declarado</p>
-      <p>Endereço</p>
-        <select name="logradouro">
-          <option valeu="Avenida">Avenida</option>
-          <option valeu="Rua">Rua</option>
-          <option valeu="Travessa">Travessa</option>
-          <option valeu="Beco">Beco</option>
-        </select>
-        <input type="text" placeholder="Digite o nome da rua, etc." width="75%"/></br></br>
-        <input type="text" placeholder="Diz teu nome"/></br></br>
-        <input type="text" placeholder="Diz teu nome"/></br></br></p>
-      <button type="submit">Enviar</button>
-    </form>
+    <hr size="3">
+     <table>
+        <tr>
+          <td width="40%"></td>
+          <td>
+            <form align="justify">
+            <p>Venha trabalhar conosco.</p>
+            <p align="left">Preenchar seus dados</p>
+            Nome&nbsp;<input type="text" placeholder="Digite seu nome"/></br></br>
+            Sobrenome&nbsp<input type="text" placeholder="Digitge seu sobrenome"/></br></br>
+            <p>Sexo:
+                <input type="radio" name="sexo" value="Masculino"/>Masculino
+                <input type="radio" name="sexo" value="Feminino"/>Feminino
+                <input type="radio" name="sexo" value="Prefiro"/>Não declarado</p>
+                <fieldset>  
+                <legend>Endereço</legend>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="street">Rua, Avenida, etc.</label><br>
+                <select name="logradouro">
+                  <option valeu="Avenida">Avenida</option>
+                  <option valeu="Rua">Rua</option>
+                  <option valeu="Travessa">Travessa</option>
+                  <option valeu="Beco">Beco</option>
+                </select>
+                  <input type="text" placeholder="Digite o nome da rua, etc." width="100px"/></br></br>
+                <label for="neighborhood">Bairro</label>
+                  <input type="text" placeholder="Bairro"/></br></br>
+                <label for="city">Município</label>
+                  <select name="city">
+                    <option valeu="João Pessoa">João Pessoa</option>
+                    <option valeu="Patos" selected>Patos</option>
+                    <option valeu="Recife">Recife</option>
+                    <option valeu="Cabedelo">Cabedelo</option>
+                    <option valeu="Bayeux">Bayuex</option>
+                </select></br></br>
+                <label for="State">Estado</label>
+                  <select name="state">
+                    <option valeu="Paraiba" selected>Paraíba</option>
+                    <option valeu="Pernambuco">Pernambucoatos</option>
+                  </select></br></br>
+                </fieldset><br>
+                <fieldset>
+                  <legend>Formação</legend>
+                  <select name="Graduation">
+                    <option valeu="Fundamental" selected>Ensino Fundamental</option>
+                    <option valeu="Médio">Ensino Médio</option>
+                    <option valeu="Técnico">Ensino Técnico</option>
+                    <option valeu="Superior">Ensino Superior</option>
+                  </select></br></br>
+                </fieldset>
+                  </select></br></br>
+                <label for="mail">E-mail</label>
+                  <input type="email"><br><br>
+                <label for="singpassword">Cadastrar Senha</label>
+                <br>
+                  <input type="password" placeholder="Digite sua senha"><br>
+                <label>Confirme a senha</label><br>
+                  <input type="password"><br><br>
+                <center><button type="submit">Enviar</button></center>
+            </form>
+          </td> 
+          <td width="35%"></td>
+        </tr>  
+    </table>
     <table name="rodapé">
       <h3 align="center"><a href="#menu">Pra Riba</a></h3>
     </table>
